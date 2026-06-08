@@ -12,6 +12,7 @@ https://elevenlabs.io/de/conversational-ai
 https://www.managelm.com/
 
 https://www.youtube.com/watch?v=39rTfPV58F4
+https://www.youtube.com/watch?v=39rTfPV58F4
 https://www.youtube.com/watch?v=GjokTDha_vs
 https://www.youtube.com/watch?v=37yyXTKxSXI
 https://www.youtube.com/watch?v=JVU4jA-AQ-U
@@ -32,6 +33,8 @@ https://de.aliexpress.com/w/wholesale-rtx-3090.html
 
 Nivida Tesla T40
 https://www.google.com/search?q=Nvidia+Tesla+T40&sca_esv=44a089a1939db368&sxsrf=ANbL-n7Pi6ZolsM2xXjjVFhbUnkkCOK1Fg%3A1780918095518&ei=T6cmar2jH4K6xc8Pv46xmA0&biw=1262&bih=652&ved=0ahUKEwj9htTzxPeUAxUCXfEDHT9HDNMQ4dUDCBA&uact=5&oq=Nvidia+Tesla+T40&gs_lp=Egxnd3Mtd2l6LXNlcnAiEE52aWRpYSBUZXNsYSBUNDAyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyBhAAGBYYHjIFEAAY7wUyBRAAGO8FSMMyUPMqWPMqcAF4AZABAJgBmAGgAZgBqgEDMC4xuAEDyAEA-AEBmAICoALZAcICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIOEAAY5AIY1gQYsAPYAQHCAhcQLhjcBhi4BhjaBhjYAhjIAxiwA9gBAZgDAIgGAZAGEboGBggBEAEYCZIHAzEuMaAH-gKyBwMwLjG4B6oBwgcHMy0xLjAuMcgHNoAIAQ&sclient=gws-wiz-serp
+
+
 
 https://www.google.com/search?q=Nvidia+Tesla+T40&sca_esv=44a089a1939db368&sxsrf=ANbL-n7Pi6ZolsM2xXjjVFhbUnkkCOK1Fg%3A1780918095518&ei=T6cmar2jH4K6xc8Pv46xmA0&biw=1262&bih=652&ved=0ahUKEwj9htTzxPeUAxUCXfEDHT9HDNMQ4dUDCBA&uact=5&oq=Nvidia+Tesla+T40&gs_lp=Egxnd3Mtd2l6LXNlcnAiEE52aWRpYSBUZXNsYSBUNDAyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyBhAAGBYYHjIFEAAY7wUyBRAAGO8FSMMyUPMqWPMqcAF4AZABAJgBmAGgAZgBqgEDMC4xuAEDyAEA-AEBmAICoALZAcICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIOEAAY5AIY1gQYsAPYAQHCAhcQLhjcBhi4BhjaBhjYAhjIAxiwA9gBAZgDAIgGAZAGEboGBggBEAEYCZIHAzEuMaAH-gKyBwMwLjG4B6oBwgcHMy0xLjAuMcgHNoAIAQ&sclient=gws-wiz-serp
 
