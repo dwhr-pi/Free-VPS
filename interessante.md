@@ -1,5 +1,7 @@
 interessant für mich
 
+codeberg.org
+
 https://developers.openai.com/codex/app
 
 https://openai.com/de-DE/index/developers-can-now-submit-apps-to-chatgpt/
