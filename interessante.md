@@ -11,11 +11,15 @@ https://elevenlabs.io/de/conversational-ai
 
 https://www.managelm.com/
 
+https://www.youtube.com/watch?v=GjokTDha_vs
 https://www.youtube.com/watch?v=37yyXTKxSXI
 https://www.youtube.com/watch?v=JVU4jA-AQ-U
 https://www.youtube.com/watch?v=tN8hTsJt6BU
+https://www.youtube.com/watch?v=DvA98Xrgo-8&t=23
 https://www.youtube.com/watch?v=37yyXTKxSXI
 https://www.youtube.com/watch?v=BmadVwcvhkM
 Lishuan LX7G100
 
 antifraud.ai
+
+https://kitecheande.com/detail/TgaFdgxsL7FoQyZFumNG
