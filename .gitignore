@@ -1,0 +1,7 @@
+# Lokale Protokolle, Sicherungen und Status der Wochenpflege
+.pflege/
+node_modules/
+*.private.*
+.env
+.env.*
+!.env.example

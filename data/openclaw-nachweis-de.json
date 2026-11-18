@@ -1,0 +1,56 @@
+{
+  "recherche": "2026-11-18",
+  "repository": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/",
+  "beobachteter_head": "c2efe2f4452e8f89abfda0881a4cb3768537420d",
+  "hinweis": "Öffentlicher Lesestand; einzelne Dateien beim Lesen über Default-Branch abgerufen. Blob-SHAs sind die genauen gelesenen Dateistände. Kein Laufzeitnachweis.",
+  "dateien": [
+    {
+      "pfad": "readme.md",
+      "blob_sha": "5959b55bcafab209f7891854cd105e2f0f9b2dba",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/readme.md",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "docs/INSTALLATION_POLICY.md",
+      "blob_sha": "c9eb0210b15cde54dc4d5c6a661886f956396dfd",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/docs/INSTALLATION_POLICY.md",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "docs/PRODUCTION_BASELINE.md",
+      "blob_sha": "8ba7fe05d2c96f9e8932168a7336ecc2b8f66d28",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/docs/PRODUCTION_BASELINE.md",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "docs/GITOPS_SMALL_VPS.md",
+      "blob_sha": "e343ddf2be2e9d30614135343a3814102ceb5bc9",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/docs/GITOPS_SMALL_VPS.md",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "docs/tools/automaton.md",
+      "blob_sha": "66570add795144b0dc9ef7511bcf4a8d3a1b4603",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/docs/tools/automaton.md",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "config/automaton.policy.example.json",
+      "blob_sha": "923a62f6220ffac950e648dae1359fea8d5af3c2",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/config/automaton.policy.example.json",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "tools/automaton/review.py",
+      "blob_sha": "d9d2fd4d5344592deef6e8a672c8de0935f221c0",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/tools/automaton/review.py",
+      "inhalt_gelesen": true
+    },
+    {
+      "pfad": "scripts/tools/helpers/automaton_common.sh",
+      "blob_sha": "69993a9695394c7b157bd824aa3242a96c4f32a3",
+      "url": "https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/blob/main/scripts/tools/helpers/automaton_common.sh",
+      "inhalt_gelesen": true
+    }
+  ]
+}

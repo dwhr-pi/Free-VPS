@@ -1,0 +1,34 @@
+{
+  "lauf": "2026-11-18T14:08:25.354Z",
+  "quellen_geprueft": 3,
+  "hinweis": "Nur öffentlicher Abruf/Textänderung; Anbieter-Prüfdatum und Tarif-/AUP-Bewertung werden nicht verändert.",
+  "ergebnisse": [
+    {
+      "url": "https://www.oracle.com/cloud/free/faq/",
+      "abgerufen_am": "2026-11-18T14:08:25.354Z",
+      "http_status": 200,
+      "ziel": "https://www.oracle.com/cloud/free/faq/",
+      "fachlich_geprueft": false,
+      "hash": "e9ff722accccbae64426a46cd9c8f7df5deb41e552f89598416a4773da49ed9b",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm",
+      "abgerufen_am": "2026-11-18T14:08:25.354Z",
+      "http_status": 200,
+      "ziel": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm",
+      "fachlich_geprueft": false,
+      "hash": "abffb7c580c9f9c5405c1abfccc6c9386c2549a07fc552f6c734d9c686fa3f57",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+      "abgerufen_am": "2026-11-18T14:08:25.354Z",
+      "http_status": 200,
+      "ziel": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+      "fachlich_geprueft": false,
+      "hash": "8f778d87932c89509133ab8fb2e4e18e38efb66a62e03ffebc5d8a69c5d8f0d1",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    }
+  ]
+}

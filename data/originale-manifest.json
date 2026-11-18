@@ -1,0 +1,26 @@
+{
+  "gesichert_am": "2026-11-18",
+  "dateien": [
+    {
+      "original": "README.md",
+      "archiv": "README-en.md",
+      "bytes": 9635,
+      "sha256": "39166914feb7c13cdbd0ea61a692daa58c774045e1fa04859672bad4dcde0eab",
+      "hinweis": "Unverändertes Original; Sprachsuffix bezeichnet den Archivstand, auch wenn einzelne Notizen bereits Deutsch enthalten."
+    },
+    {
+      "original": "1.md",
+      "archiv": "1-en.md",
+      "bytes": 7627,
+      "sha256": "b187a1bf8d480780c290c13c7dd377801b75ec6493a0664e22830ebf5058d754",
+      "hinweis": "Unverändertes Original; Sprachsuffix bezeichnet den Archivstand, auch wenn einzelne Notizen bereits Deutsch enthalten."
+    },
+    {
+      "original": "interessante.md",
+      "archiv": "interessante-en.md",
+      "bytes": 2892,
+      "sha256": "c384f76664d70fef17a117e80af96e0eeeb945020ff25091d6b978334fdd113a",
+      "hinweis": "Unverändertes Original; Sprachsuffix bezeichnet den Archivstand, auch wenn einzelne Notizen bereits Deutsch enthalten."
+    }
+  ]
+}
