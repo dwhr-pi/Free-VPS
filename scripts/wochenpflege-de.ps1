@@ -56,7 +56,7 @@ try {
     foreach ($folder in @('data','docs','prompts')) {
         Copy-Item -LiteralPath (Join-Path $repoRoot $folder) -Destination (Join-Path $snapshot $folder) -Recurse
     }
-    foreach ($file in @('README.md','README-de.md','1-de.md','interessante-de.md')) {
+    foreach ($file in @('README.md','README-de.md','1-de.md','interessante-de.md','CHANGELOG-de.md')) {
         Copy-Item -LiteralPath (Join-Path $repoRoot $file) -Destination $snapshot
     }
     & $nodePath (Join-Path $PSScriptRoot 'quellenmonitor-de.mjs') *> (Join-Path $runDir 'quellen.log')

@@ -10,6 +10,12 @@ Recherche: 18.11.2026. YouTube liefert anschauliche Erklärungen, aber keine ver
 
 Für weitere Videoanleitungen gibt es die [eigene Kubernetes-Lernseite von TechWorld with Nana](https://www.techworld-with-nana.com/guides/topics/kubernetes) und deren [Themenübersicht mit Ansible-/GitOps-Inhalten](https://www.techworld-with-nana.com/guides). Diese Quellen erläutern technische Konzepte; sie ersetzen keinen geprüften nativen OpenClaw-Installationspfad.
 
+## Neue Einordnung vom 21.11.2026
+
+[How to Deploy a GitHub Codespace](https://www.youtube.com/watch?v=_01iCF9sO1c), Kanal **GitHub**, veröffentlicht **26.03.2024** laut öffentlichem Suchindex: geeignete offizielle Orientierung zum Anlegen einer Entwicklungsumgebung. Titel, Kanal, Datum und Beschreibung sind Metadaten; direkter Videoabruf scheiterte, ein Transkript-/Befehlsaudit fand nicht statt. Konkrete Einrichtung und Kontingente mit der [heutigen GitHub-Dokumentation](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces) abgleichen. Aus „Deploy“ im Titel folgt kein erlaubtes Produktionshosting in Codespaces.
+
+Die Suche am 21.11.2026 fand auch aktuelle 24/7-/GPU-Versprechen. Eine solche Fundstelle bleibt im [Quellenregister](../data/wissensquellen-de.json) als Kandidat ohne Übernahme. Ungeklärte Infrastruktur und Bedingungen reichen nicht für eine Gratis-VPS-Empfehlung. [Auswahl und Prüfmethode](QUELLENPFLEGE-de.md).
+
 ## Praktische Ideen für dieses Repository
 
 Die folgenden Vorschläge sind eigene Ableitungen für das Setup, keine Behauptung über ungesehene Videoinhalte:

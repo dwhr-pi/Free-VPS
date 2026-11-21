@@ -4,6 +4,8 @@ Die Pflege besteht aus einem begrenzten öffentlichen Quellenmonitor und einem a
 
 ## Was automatisch aktualisiert wird
 
+**Erweitert am 21.11.2026:** Zusätzlich werden die beiden Referenzrepositories, GitHub-Bedingungen und das [Wissensquellenregister](../data/wissensquellen-de.json) berücksichtigt. Neue Artikel, Release-Notes und Videos zuerst nach dem [Konformitätsverfahren](GITHUB-KONFORMITAET-de.md) prüfen; nur benannte zulässige Ideen übernehmen. Metadaten, Kandidaten und verworfene Methoden bleiben getrennt. Die [Quellenpflege](QUELLENPFLEGE-de.md) beschreibt Datenvertrag und tatsächliche Prüfabdeckung. Der bestehende Task liest den aktualisierten Prompt beim nächsten Start; es wird kein Doppeljob angelegt.
+
 Der [Wochenauftrag](../prompts/WOCHENPFLEGE-de.md) prüft öffentliche Anbieterpreise, Gratisbedingungen, Karten-/KYC-/Mehrfachkontoregeln, Mining/KI/Krypto/Trading, Ressourcen/Traffic, Erfahrungen, GitHub-Werkzeuge und YouTube-Fundstellen. Neue Anbieter und Einrichtungsanleitungen werden aufgenommen, alte Angebote gegebenenfalls als historisch oder unbestätigt markiert. Der [OpenClaw-Codex-Prompt](../prompts/CODEX-OPENCLAW-VPS-de.md) wird anhand neuer Anbieter und des tatsächlichen Automaton-/Setupstands überprüft und bei Bedarf angepasst.
 
 Der Job aktualisiert lokale deutsche Dateien in diesem Repository. Das Hauptrepository wird dabei nur gelesen. Kein wöchentlicher Provider-Login, kein neuer Account, kein Kauf, kein Server-/Cluster-Apply, kein Mining oder Live-Trading. Der Job committet/pusht nicht und verschickt keine Nachrichten. Für Veröffentlichungen ist deshalb ein eigener, bewusster Git-Schritt erforderlich.

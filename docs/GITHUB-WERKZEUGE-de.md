@@ -23,6 +23,8 @@ Geprüfte öffentliche Fundstellen vom 18.11.2026. Ein erreichbares Repository o
 
 ## Empfohlene Reihenfolge für einen eigenen geprüften Ausbau
 
+**Ergänzung vom 21.11.2026:** [l0n3m4n/github-vps](https://github.com/l0n3m4n/github-vps) dient nur als Idee für portable Entwicklungsumgebungen; VPS-/Tunnelmethoden werden ausgeschlossen. [hostvpshub/free-vps](https://github.com/hostvpshub/free-vps) beschreibt Dashboardfunktionen, enthält aber im geprüften Root nur eine README. Es wird deshalb als Konzeptquelle, nicht als installierbare Managementsoftware geführt. [Detailprüfung und Übernahmegrenzen](REFERENZEN-de.md).
+
 1. Menschliches Konto/Berechtigung und Anbieterbedingungen klären.
 2. Bestehende offizielle API-/CLI-Zugangsdaten mit minimalen Rechten bereitstellen.
 3. Infrastrukturplan mit Preis-, Region-, Quoten- und Ressourcenprüfung erstellen.

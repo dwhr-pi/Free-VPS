@@ -1,0 +1,34 @@
+{
+  "lauf": "2026-11-21T14:09:40.661Z",
+  "quellen_geprueft": 3,
+  "hinweis": "Nur öffentlicher Abruf/Textänderung; Anbieter-Prüfdatum und Tarif-/AUP-Bewertung werden nicht verändert.",
+  "ergebnisse": [
+    {
+      "url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+      "abgerufen_am": "2026-11-21T14:09:40.661Z",
+      "http_status": 200,
+      "ziel": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+      "fachlich_geprueft": false,
+      "hash": "67eb34048bb09b1cb3048933d6ecaf55698c2a7ac8fa553beed9bc1b05d968a5",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    },
+    {
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+      "abgerufen_am": "2026-11-21T14:09:40.661Z",
+      "http_status": 200,
+      "ziel": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+      "fachlich_geprueft": false,
+      "hash": "ef3aa4a6857832fb70c10e02806308d9846f2ac2ab3a8562f45105a0097b69cf",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    },
+    {
+      "url": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+      "abgerufen_am": "2026-11-21T14:09:40.661Z",
+      "http_status": 200,
+      "ziel": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+      "fachlich_geprueft": false,
+      "hash": "ddfe242ab2ce8d0a532be050e86b91129460a70556e21134f4c4db7fc6750ea4",
+      "status": "Erste Textreferenz; fachliche Prüfung erforderlich"
+    }
+  ]
+}

@@ -22,6 +22,7 @@ const fields = [['art', 'Typ / Rootgrenze'], ['pruefstatus', 'Nachweisstand'], [
 for (const o of data.angebote) {
   out += '<a id="' + o.id + '"></a>\n\n## ' + o.name + '\n\n';
   out += link('Offizieller Einstieg', o.url) + ' · recherchiert ' + o.geprueft_am + '\n\n';
+  if (o.regelpruefung_am) out += 'Teilprüfung der GitHub-Nutzungsregeln: **' + o.regelpruefung_am + '**. Andere Angaben behalten ihren oben genannten Prüfstand.\n\n';
   out += '| Merkmal | Einordnung |\n| --- | --- |\n';
   for (const [key, title] of fields) out += '| ' + title + ' | ' + escape(o[key]) + ' |\n';
   out += '\n### Von der Registrierung bis zum ersten Dienst\n\n';

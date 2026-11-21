@@ -6,10 +6,13 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const data = JSON.parse(await fs.readFile(path.join(root, 'data/anbieter-de.json'), 'utf8'));
+const knowledge = JSON.parse(await fs.readFile(path.join(root, 'data/wissensquellen-de.json'), 'utf8'));
 const maxArg = process.argv.find(x => x.startsWith('--max='));
 const max = maxArg ? Number(maxArg.slice(6)) : Infinity;
 if (!(max >= 1)) throw new Error('Ungültiges --max');
-const urls = [...new Set(data.angebote.flatMap(o => [...o.quellen, ...o.erfahrungsquellen]))].slice(0, max);
+const knowledgeUrls = knowledge.quellen.flatMap(q => [q.url, ...q.belege]);
+const providerUrls = data.angebote.flatMap(o => [...o.quellen, ...o.erfahrungsquellen]);
+const urls = [...new Set(process.argv.includes('--wissen') ? knowledgeUrls : [...knowledgeUrls, ...providerUrls])].slice(0, max);
 let old = {};
 try { old = JSON.parse(await fs.readFile(path.join(root, '.pflege/quellenzustand.json'), 'utf8')); }
 catch (e) { if (e.code !== 'ENOENT') throw e; }

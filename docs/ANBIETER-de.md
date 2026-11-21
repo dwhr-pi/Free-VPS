@@ -2586,6 +2586,8 @@ Angebots-/Regelbelege: [Quelle 1](https://vps.sakura.ad.jp/) · [Quelle 2](https
 
 [Offizieller Einstieg](https://github.com/dwhr-pi/github-vps) · recherchiert 2026-11-18
 
+Teilprüfung der GitHub-Nutzungsregeln: **2026-11-21**. Andere Angaben behalten ihren oben genannten Prüfstand.
+
 | Merkmal | Einordnung |
 | --- | --- |
 | Typ / Rootgrenze | Entwicklungsumgebung, kein dauerhafter VPS |
@@ -2603,21 +2605,21 @@ Angebots-/Regelbelege: [Quelle 1](https://vps.sakura.ad.jp/) · [Quelle 2](https
 | Kubernetes-Eignung | Nur temporäres Entwicklungslabor. |
 | Mehrere Konten | GitHub verlangt menschliche Kontoeinrichtung und begrenzt Gratis-Konten; keine Quotenvervielfachung durch Bots. |
 | Registrierung ohne Menschen | Keine autonome Bot-Neuregistrierung: menschliche Kontoerstellung laut GitHub-Accountbedingungen. |
-| Einrichtung automatisierbar | Nach legitimer Kontoeinrichtung: SSH und vorhandene offizielle API getrennt prüfen. |
-| Mining | Keine Mining-Erlaubnis für dieses Entwicklungsangebot nachgewiesen. |
+| Einrichtung automatisierbar | Offizielle Entwicklungs-APIs/CLI für ein vorhandenes legitimes Konto; kein VPS-/Dauerhosting- oder Quotenumgehungspfad. |
+| Mining | Ausdrücklich verboten gemäß GitHub-Zusatzbedingungen, Abschnitt Codespaces; Regeln am 21.11.2026 gelesen. |
 | KI / Inferenz / Training | Entwicklung und Tests im Quotenrahmen; keine Zusage für Dauerinferenz. |
 | Krypto-Werkzeuge / Full Nodes | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Staking / Validatoren | Nicht getrennt verbindlich belegt; Miningregel allein entscheidet nicht über Staking/Validatoren. |
 | Trading-Bots / Analyse | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Öffentliche Tradingplattform | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Kommerzielle Nutzung | Kommerzielle Nutzung und Weiterverkauf in aktuellem Tarifvertrag gesondert prüfen. |
-| Weitere Erlaubnisse / Verbote | Es gelten AUP, Gesetze, Ressourcenlimits und tarifliche Zweckbindung; keine pauschale Nutzungsfreigabe. |
+| Weitere Erlaubnisse / Verbote | Nur Entwicklung und Tests des zugehörigen Projekts. Produktionshosting, projektfremde Nutzung, Mining und unautorisierte Angriffe ausgeschlossen; keine VPS-, Tunnel- oder Keepalive-Anleitung in dieser Integration. |
 | Backup / SLA | Eigene externe Backups vorsehen; Tarif-SLA gesondert prüfen. |
 
 ### Von der Registrierung bis zum ersten Dienst
 
 1. Eigenes GitHub-Konto rechtmäßig erstellen/verifizieren.
-2. Verlinktes Repository und dessen Skripte prüfen.
+2. Eigene geprüfte FreeVPS-Entwicklungskonfiguration verwenden; verlinkte VPS-/Tunnelmethoden nicht übernehmen.
 3. Code > Codespaces öffnen, kleine Maschine und Budget auswählen.
 4. Umgebung nach Arbeit stoppen; benötigten Zustand extern sichern.
 
@@ -2625,15 +2627,17 @@ Angebots-/Regelbelege: [Quelle 1](https://vps.sakura.ad.jp/) · [Quelle 2](https
 
 Kein belastbarer, unabhängiger Langzeitbericht für genau diesen Tarif in dieser Recherche gefunden.
 
-Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/github-vps) · [Quelle 2](https://docs.github.com/en/billing/reference/product-usage-included) · [Quelle 3](https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-included-usage) · [Quelle 4](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/github-vps) · [Quelle 2](https://docs.github.com/en/billing/reference/product-usage-included) · [Quelle 3](https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-included-usage) · [Quelle 4](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) · [Quelle 5](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features) · [Quelle 6](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies).
 
-Öffentliche Quellenrecherche; kein Konto eröffnet, kein Server gebucht, keine Installation/Last-/Restoreprobe beim Anbieter.
+Anbieterkarte ursprünglich vom 18.11.2026. Am 21.11.2026 nur GitHub-Zweckbindung, Miningverbot und allgemeine AUP inhaltlich erneut geprüft; keine vollständige neue Tarif-/Quotenprüfung. Kein Konto, Runner, Codespace oder VPS gestartet.
 
 <a id="actions"></a>
 
 ## GitHub Actions / FreeVPS_by_Github-Action
 
 [Offizieller Einstieg](https://github.com/dwhr-pi/FreeVPS_by_Github-Action) · recherchiert 2026-11-18
+
+Teilprüfung der GitHub-Nutzungsregeln: **2026-11-21**. Andere Angaben behalten ihren oben genannten Prüfstand.
 
 | Merkmal | Einordnung |
 | --- | --- |
@@ -2652,15 +2656,15 @@ Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/github-vps) · [Que
 | Kubernetes-Eignung | Kein dauerhafter Clusterknoten. |
 | Mehrere Konten | Keine Accounts zur Quotenvervielfachung; menschliche GitHub-Kontoeinrichtung nötig. |
 | Registrierung ohne Menschen | Kein zulässiger Bot-Signupweg belegt. |
-| Einrichtung automatisierbar | Nach legitimer Kontoeinrichtung: SSH und vorhandene offizielle API getrennt prüfen. |
-| Mining | Keine Freigabe; allgemeines Mining ist kein projektbezogener CI-Zweck. |
+| Einrichtung automatisierbar | Nur endliche projektbezogene CI/CD über dokumentierte Workflows/APIs; kein SSH-VPS-, Tunnel- oder Dauerhostingpfad. |
+| Mining | Ausdrücklich verboten gemäß GitHub-Zusatzbedingungen, Abschnitt Actions; Regeln am 21.11.2026 gelesen. |
 | KI / Inferenz / Training | Projektbezogene Softwaretests denkbar; allgemeiner KI-Hostingdienst nicht daraus erlaubt. |
 | Krypto-Werkzeuge / Full Nodes | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Staking / Validatoren | Nicht getrennt verbindlich belegt; Miningregel allein entscheidet nicht über Staking/Validatoren. |
 | Trading-Bots / Analyse | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Öffentliche Tradingplattform | Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen. |
 | Kommerzielle Nutzung | Kommerzielle Nutzung und Weiterverkauf in aktuellem Tarifvertrag gesondert prüfen. |
-| Weitere Erlaubnisse / Verbote | GitHub-hosted Runner nur für Produktion, Tests, Deployment oder Veröffentlichung des zugehörigen Softwareprojekts; allgemeines Hosting unabhängig davon fällt nicht darunter. |
+| Weitere Erlaubnisse / Verbote | Projektbezogene CI/CD; Mining und unautorisierte Angriffe ausdrücklich ausgeschlossen. In dieser Integration zusätzlich keine Keepalives, Reverse-Tunnel, offenen Proxies/VPN-Relays oder Spam-/Limitumgehung. |
 | Backup / SLA | Eigene externe Backups vorsehen; Tarif-SLA gesondert prüfen. |
 
 ### Von der Registrierung bis zum ersten Dienst
@@ -2674,9 +2678,9 @@ Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/github-vps) · [Que
 
 Kein belastbarer, unabhängiger Langzeitbericht für genau diesen Tarif in dieser Recherche gefunden.
 
-Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/FreeVPS_by_Github-Action) · [Quelle 2](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features) · [Quelle 3](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+Angebots-/Regelbelege: [Quelle 1](https://github.com/dwhr-pi/FreeVPS_by_Github-Action) · [Quelle 2](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features) · [Quelle 3](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) · [Quelle 4](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies).
 
-Öffentliche Quellenrecherche; kein Konto eröffnet, kein Server gebucht, keine Installation/Last-/Restoreprobe beim Anbieter.
+Anbieterkarte ursprünglich vom 18.11.2026. Am 21.11.2026 nur GitHub-Zweckbindung, Miningverbot und allgemeine AUP inhaltlich erneut geprüft; keine vollständige neue Tarif-/Quotenprüfung. Kein Konto, Runner, Codespace oder VPS gestartet.
 
 <a id="forexvps"></a>
 

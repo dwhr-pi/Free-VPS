@@ -1,0 +1,9 @@
+{
+  "name": "FreeVPS – Dokumentation und Tests",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "remoteUser": "node",
+  "privileged": false,
+  "forwardPorts": [],
+  "postCreateCommand": "node scripts/pruefen-de.mjs",
+  "shutdownAction": "stopContainer"
+}

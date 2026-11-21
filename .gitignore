@@ -5,3 +5,10 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Private administrative inventories and credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+instanzen.local.json

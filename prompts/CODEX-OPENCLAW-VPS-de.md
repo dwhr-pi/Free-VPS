@@ -1,6 +1,6 @@
 # Codex-Auftrag: VPS-Anbieter und begrenzte Automaton-Bereitstellung
 
-**Aktualisiert: 18.11.2026.** Diesen gesamten Prompt in einem Codex-Chat im Checkout von `dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup` verwenden. Der Prompt wird von der Wochenpflege des ergänzenden Free-VPS-Repositories überprüft und bei belegten Änderungen fortgeschrieben. Sein bloßes Vorhandensein installiert keinen Adapter.
+**Aktualisiert: 21.11.2026.** Diesen gesamten Prompt in einem Codex-Chat im Checkout von `dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup` verwenden. Der Prompt wird von der Wochenpflege des ergänzenden Free-VPS-Repositories überprüft und bei belegten Änderungen fortgeschrieben. Sein bloßes Vorhandensein installiert keinen Adapter. Der technische OpenClaw-Ausgangsnachweis bleibt vom 18.11.2026 und muss vor Implementierung erneut geprüft werden.
 
 ```text
 Arbeite im Repository https://github.com/dwhr-pi/OpenClaw-AI_Infrastructure-_Ultimate_Setup/.
@@ -15,6 +15,20 @@ ein gesonderter begrenzter Adapter geeignete VPS-Angebote auswählen, planen und
 gültiger Autorisierung über offizielle Provider-APIs und SSH einrichten kann. Bestehende
 Conway-Automaton-Sperren nicht stillschweigend entfernen. Cloudkonto-Eröffnung,
 VM-Provisionierung und Serverkonfiguration sind getrennte Fähigkeiten.
+
+Verbindliche Ergänzung vom 21.11.2026: Beachte die aktuellen deutschen FreeVPS-Dateien
+docs/GITHUB-KONFORMITAET-de.md, docs/REFERENZEN-de.md und data/wissensquellen-de.json.
+Keine Dauer-VPS-/Proxy-/Hosting-Nutzung von GitHub Actions oder Codespaces, keine
+Keepalives, Reverse-Tunnel, offenen Proxies/VPN-Relays, Mining-, Spam-, Quoten-
+oder Identitätsumgehung. Actions nur projektbezogene CI/CD, Codespaces nur Entwicklung
+und Tests innerhalb der Kontingente. Keine unautorisierten Scans oder Zugriffe.
+Security-/CTF-Arbeit nur in isolierten eigenen, ausdrücklich berechtigten Laboren.
+l0n3m4n/github-vps liefert ausschließlich Ideen für portable Entwicklung auf legitimen
+Hosts. hostvpshub/free-vps liefert Dashboard-/Monitoring-/Backup-/Firewallkonzepte;
+im am 21.11.2026 gelesenen Root lag nur eine README, kein prüfbarer Anwendungscode.
+Keine Software oder vorhandenen Adapter daraus erfinden. Der optionale FreeVPS-
+Dev-Container ist kein Installationsweg oder Docker-Fallback für dieses Hauptprojekt.
+Die bestehende Anbieter-Regelmatrix ist Vergleichswissen, keine Workloadfreigabe.
 
 1. Zuerst aktuellen Iststand belegen
 Prüfe docs/tools/automaton.md, tools/automaton/review.py,
@@ -126,6 +140,14 @@ automatischer Signup, Kauf, Cluster-Apply, Mining- oder Live-Tradinglauf.
 Rechercheänderungen und Adaptercode getrennt halten; wöchentliche Forschung darf
 keine Betriebsfreigaben erweitern. Lokale Pflege oder PR-Entwurf; keine Veröffentlichung,
 kein Push und keine Nachricht an Dritte ohne entsprechenden Auftrag.
+
+Neue Artikel, Dokumentationen, Release-Notes und Videos zu FreeVPS GitHub wöchentlich
+zuerst gegen aktuelle GitHub ToS/AUP und Anbieterregeln prüfen. Herausgeber, Datum,
+Prüfumfang, Belege, übernommene Konzepte und ausgeschlossene Methoden dokumentieren.
+Metadaten nicht als vollständig geprüften Inhalt ausgeben; unsichere Methoden verwerfen
+oder nur zulässige Teilideen übernehmen. Veraltetes datiert kennzeichnen. README und
+Changelog aktualisieren und zum Abschluss Quellen/Ideen, Änderungen sowie deren
+ToS-Einordnung und offene Prüfungen nennen. Keinen doppelten Pflegejob installieren.
 
 Lieferung: implementierte lokale Änderungen, kurze Fähigkeitsmatrix, deutsche Anleitung,
 Quellen mit Datum, sinnvolle Testergebnisse und präzise verbleibende Menschenaktionen.

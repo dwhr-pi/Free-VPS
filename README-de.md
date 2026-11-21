@@ -4,6 +4,9 @@
 
 ## Direkt zu den Ergebnissen
 
+- [GitHub-Konformität und verbindliche Projektgrenzen](docs/GITHUB-KONFORMITAET-de.md)
+- [Neue Referenzintegration vom 21.11.2026](docs/REFERENZEN-de.md), [Entwicklungsumgebung](docs/ENTWICKLUNGSUMGEBUNG-de.md) und [Instanzverwaltung](docs/INSTANZVERWALTUNG-de.md)
+- [Artikel-/Videoquellen und fortlaufende Pflege](docs/QUELLENPFLEGE-de.md), [Quellenregister](data/wissensquellen-de.json) und [Changelog](CHANGELOG-de.md)
 - [Anbieterkatalog mit Registrierung, Setup, Kosten, Karte und Erfahrungen](docs/ANBIETER-de.md)
 - [Mining, KI, Krypto, Trading und Traffic je Angebot](docs/NUTZUNGSREGELN-de.md)
 - [Gemeinsame Einrichtung ab SSH-Zugang](docs/EINRICHTUNG-de.md)
@@ -33,7 +36,7 @@ Das ergänzte Hauptprojekt ist [OpenClaw-AI_Infrastructure-_Ultimate_Setup](http
 - Die ursprüngliche VPSWala-Adresse leitete beim Abruf zu einem Kamatera-Affiliateziel; sie wird nicht als weiterer eigener Gratisanbieter gezählt.
 - GitHub Codespaces hat Kontingente, Idle-Stopp und Speicherabrechnung. GitHub Actions ist für projektbezogene CI vorgesehen. Beide sind keine zugesicherten Lifetime-VPS.
 
-Die gewünschten Verweise bleiben gut sichtbar: [dwhr-pi/github-vps](https://github.com/dwhr-pi/github-vps) und [dwhr-pi/FreeVPS_by_Github-Action](https://github.com/dwhr-pi/FreeVPS_by_Github-Action). Ihre Anleitungen sind gegen aktuelle GitHub-Regeln zu prüfen, bevor Workflows gestartet werden.
+Die gewünschten Verweise bleiben gut sichtbar: [dwhr-pi/github-vps](https://github.com/dwhr-pi/github-vps) und [dwhr-pi/FreeVPS_by_Github-Action](https://github.com/dwhr-pi/FreeVPS_by_Github-Action). Das sind kritisch einzuordnende Fundstellen, keine Empfehlung zum Start von VPS-Workflows. Die [am 21.11.2026 geprüften GitHub-Grenzen](docs/GITHUB-KONFORMITAET-de.md) schließen Dauerhosting, Mining, Keepalive- und Quotenumgehungen in dieser Integration aus. Die neue optionale Entwicklungsumgebung gilt ausschließlich für FreeVPS und ändert nicht die native OpenClaw-Installationsrichtlinie.
 
 ## Originalschutz und Nachweise
 

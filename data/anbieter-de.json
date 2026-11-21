@@ -2287,14 +2287,14 @@
       "kubernetes": "Nur temporäres Entwicklungslabor.",
       "registrierung": [
         "Eigenes GitHub-Konto rechtmäßig erstellen/verifizieren.",
-        "Verlinktes Repository und dessen Skripte prüfen.",
+        "Eigene geprüfte FreeVPS-Entwicklungskonfiguration verwenden; verlinkte VPS-/Tunnelmethoden nicht übernehmen.",
         "Code > Codespaces öffnen, kleine Maschine und Budget auswählen.",
         "Umgebung nach Arbeit stoppen; benötigten Zustand extern sichern."
       ],
       "agent_registrierung": "Keine autonome Bot-Neuregistrierung: menschliche Kontoerstellung laut GitHub-Accountbedingungen.",
       "mehrfachkonten": "GitHub verlangt menschliche Kontoeinrichtung und begrenzt Gratis-Konten; keine Quotenvervielfachung durch Bots.",
-      "automatisierung": "Nach legitimer Kontoeinrichtung: SSH und vorhandene offizielle API getrennt prüfen.",
-      "mining": "Keine Mining-Erlaubnis für dieses Entwicklungsangebot nachgewiesen.",
+      "automatisierung": "Offizielle Entwicklungs-APIs/CLI für ein vorhandenes legitimes Konto; kein VPS-/Dauerhosting- oder Quotenumgehungspfad.",
+      "mining": "Ausdrücklich verboten gemäß GitHub-Zusatzbedingungen, Abschnitt Codespaces; Regeln am 21.11.2026 gelesen.",
       "ki": "Entwicklung und Tests im Quotenrahmen; keine Zusage für Dauerinferenz.",
       "krypto_tools": "Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen.",
       "trading": "Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen.",
@@ -2303,20 +2303,23 @@
       "bandbreite": "Nicht verlässlich beziffert.",
       "netz": "Im konkreten Tarif prüfen: IPv4, IPv6, NAT, UDP, TUN und Kernelrechte.",
       "backup_sla": "Eigene externe Backups vorsehen; Tarif-SLA gesondert prüfen.",
-      "erlaubt_verboten": "Es gelten AUP, Gesetze, Ressourcenlimits und tarifliche Zweckbindung; keine pauschale Nutzungsfreigabe.",
+      "erlaubt_verboten": "Nur Entwicklung und Tests des zugehörigen Projekts. Produktionshosting, projektfremde Nutzung, Mining und unautorisierte Angriffe ausgeschlossen; keine VPS-, Tunnel- oder Keepalive-Anleitung in dieser Integration.",
       "erfahrungen": "Kein belastbarer, unabhängiger Langzeitbericht für genau diesen Tarif in dieser Recherche gefunden.",
       "erfahrungsquellen": [],
       "quellen": [
         "https://github.com/dwhr-pi/github-vps",
         "https://docs.github.com/en/billing/reference/product-usage-included",
         "https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-included-usage",
-        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies"
       ],
       "validatoren": "Nicht getrennt verbindlich belegt; Miningregel allein entscheidet nicht über Staking/Validatoren.",
       "betriebssysteme": "Im aktuellen Produkt/Panel prüfen; Linux-/Windows-Lizenz und ARM64/AMD64 unterscheiden.",
       "gpu": "Keine kostenlose/dedizierte GPU für diesen Eintrag nachgewiesen.",
       "commercial": "Kommerzielle Nutzung und Weiterverkauf in aktuellem Tarifvertrag gesondert prüfen.",
-      "pruefumfang": "Öffentliche Quellenrecherche; kein Konto eröffnet, kein Server gebucht, keine Installation/Last-/Restoreprobe beim Anbieter."
+      "pruefumfang": "Anbieterkarte ursprünglich vom 18.11.2026. Am 21.11.2026 nur GitHub-Zweckbindung, Miningverbot und allgemeine AUP inhaltlich erneut geprüft; keine vollständige neue Tarif-/Quotenprüfung. Kein Konto, Runner, Codespace oder VPS gestartet.",
+      "regelpruefung_am": "2026-11-21"
     },
     {
       "id": "actions",
@@ -2340,8 +2343,8 @@
       ],
       "agent_registrierung": "Kein zulässiger Bot-Signupweg belegt.",
       "mehrfachkonten": "Keine Accounts zur Quotenvervielfachung; menschliche GitHub-Kontoeinrichtung nötig.",
-      "automatisierung": "Nach legitimer Kontoeinrichtung: SSH und vorhandene offizielle API getrennt prüfen.",
-      "mining": "Keine Freigabe; allgemeines Mining ist kein projektbezogener CI-Zweck.",
+      "automatisierung": "Nur endliche projektbezogene CI/CD über dokumentierte Workflows/APIs; kein SSH-VPS-, Tunnel- oder Dauerhostingpfad.",
+      "mining": "Ausdrücklich verboten gemäß GitHub-Zusatzbedingungen, Abschnitt Actions; Regeln am 21.11.2026 gelesen.",
       "ki": "Projektbezogene Softwaretests denkbar; allgemeiner KI-Hostingdienst nicht daraus erlaubt.",
       "krypto_tools": "Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen.",
       "trading": "Nicht belegt; vor Nutzung aktuelle AUP und gegebenenfalls schriftliche Anbieterfreigabe prüfen.",
@@ -2350,19 +2353,21 @@
       "bandbreite": "Nicht verlässlich beziffert.",
       "netz": "Im konkreten Tarif prüfen: IPv4, IPv6, NAT, UDP, TUN und Kernelrechte.",
       "backup_sla": "Eigene externe Backups vorsehen; Tarif-SLA gesondert prüfen.",
-      "erlaubt_verboten": "GitHub-hosted Runner nur für Produktion, Tests, Deployment oder Veröffentlichung des zugehörigen Softwareprojekts; allgemeines Hosting unabhängig davon fällt nicht darunter.",
+      "erlaubt_verboten": "Projektbezogene CI/CD; Mining und unautorisierte Angriffe ausdrücklich ausgeschlossen. In dieser Integration zusätzlich keine Keepalives, Reverse-Tunnel, offenen Proxies/VPN-Relays oder Spam-/Limitumgehung.",
       "erfahrungen": "Kein belastbarer, unabhängiger Langzeitbericht für genau diesen Tarif in dieser Recherche gefunden.",
       "erfahrungsquellen": [],
       "quellen": [
         "https://github.com/dwhr-pi/FreeVPS_by_Github-Action",
         "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
-        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies"
       ],
       "validatoren": "Nicht getrennt verbindlich belegt; Miningregel allein entscheidet nicht über Staking/Validatoren.",
       "betriebssysteme": "Im aktuellen Produkt/Panel prüfen; Linux-/Windows-Lizenz und ARM64/AMD64 unterscheiden.",
       "gpu": "Keine kostenlose/dedizierte GPU für diesen Eintrag nachgewiesen.",
       "commercial": "Kommerzielle Nutzung und Weiterverkauf in aktuellem Tarifvertrag gesondert prüfen.",
-      "pruefumfang": "Öffentliche Quellenrecherche; kein Konto eröffnet, kein Server gebucht, keine Installation/Last-/Restoreprobe beim Anbieter."
+      "pruefumfang": "Anbieterkarte ursprünglich vom 18.11.2026. Am 21.11.2026 nur GitHub-Zweckbindung, Miningverbot und allgemeine AUP inhaltlich erneut geprüft; keine vollständige neue Tarif-/Quotenprüfung. Kein Konto, Runner, Codespace oder VPS gestartet.",
+      "regelpruefung_am": "2026-11-21"
     },
     {
       "id": "forexvps",

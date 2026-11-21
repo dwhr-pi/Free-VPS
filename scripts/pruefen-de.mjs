@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { pruefeWissensquellen } from './wissensquellen-de.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -16,6 +17,18 @@ const data = JSON.parse(await fs.readFile(path.join(root, 'data/anbieter-de.json
 const required = ['id','name','gruppe','url','art','pruefstatus','geprueft_am','ressourcen','regionen','kreditkarte','kosten','erneuerung','kubernetes','registrierung','agent_registrierung','mehrfachkonten','automatisierung','mining','ki','krypto_tools','validatoren','trading','oeffentliche_tradingplattform','traffic','bandbreite','netz','backup_sla','erlaubt_verboten','erfahrungen','erfahrungsquellen','quellen','pruefumfang','betriebssysteme','gpu','commercial'];
 const ids = new Set();
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Berlin' }).format(new Date());
+const knowledge = JSON.parse(await fs.readFile(path.join(root, 'data/wissensquellen-de.json'), 'utf8'));
+const sourceCheck = pruefeWissensquellen(knowledge, today);
+errors.push(...sourceCheck.errors);
+for (const warning of sourceCheck.warnings) console.warn(warning);
+for (const source of knowledge.quellen || []) {
+  for (const target of source.eingearbeitet_in || []) {
+    if (typeof target !== 'string') continue;
+    const resolved = path.resolve(root, target);
+    if (!resolved.startsWith(root + path.sep)) continue;
+    try { await fs.access(resolved); } catch { errors.push('Quellenziel fehlt: ' + target); }
+  }
+}
 const groups = new Set(['gratis','kandidat','trial','bezahlt','alternative','zweckgebunden','historisch','ausgeschlossen','rueckerstattung']);
 for (const o of data.angebote) {
   for (const field of required) if (!(field in o) || o[field] === '') errors.push(o.id + ': Feld fehlt: ' + field);
@@ -23,6 +36,7 @@ for (const o of data.angebote) {
   ids.add(o.id);
   if (!groups.has(o.gruppe)) errors.push('Unbekannte Gruppe: ' + o.id);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(o.geprueft_am) || o.geprueft_am > today) errors.push('Unplausibles Prüfdatum: ' + o.id);
+  if (o.regelpruefung_am && (!/^\d{4}-\d{2}-\d{2}$/.test(o.regelpruefung_am) || o.regelpruefung_am > today)) errors.push('Unplausibles Regelprüfdatum: ' + o.id);
   if (!Array.isArray(o.registrierung) || o.registrierung.length < 2) errors.push('Registrierungspfad fehlt: ' + o.id);
   if (!Array.isArray(o.quellen) || !o.quellen.length) errors.push('Quellen fehlen: ' + o.id);
   for (const u of [o.url, ...(o.quellen || []), ...(o.erfahrungsquellen || [])]) {
@@ -56,4 +70,4 @@ for (const o of data.angebote) {
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
-} else console.log('OK: ' + data.angebote.length + ' Angebote, Originalhashes, Pflichtfelder und lokale Dokumentlinks.');
+} else console.log('OK: ' + data.angebote.length + ' Angebote, ' + knowledge.quellen.length + ' Wissensquellen, Originalhashes, Pflichtfelder und lokale Dokumentlinks.');

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "hinweis": "Ausschließlich synthetisches Beispiel; keine echte Instanz, Messung oder Freigabe.",
+  "instanzen": [
+    {
+      "id": "labor-beispiel-01",
+      "anbieter_id": "eigene-lokale-vm",
+      "kontoreferenz": "lokales-labor",
+      "region": "lokal",
+      "zweck": "entwicklung",
+      "autorisierung": "nicht-geprueft",
+      "status": "unbekannt",
+      "letzte_messung": null,
+      "ressourcen": { "vcpu": 2, "ram_mib": 2048, "disk_gib": 20 },
+      "messwerte": { "cpu_prozent": null, "ram_belegt_mib": null, "disk_frei_gib": null, "traffic_monat_gib": null },
+      "limits": { "traffic_monat_gib": null, "port_mbit_s": null, "budget_monat_eur": 0 },
+      "backup": { "letzter_erfolg": null, "letzter_restore_test": null, "rpo_stunden": 24, "rto_stunden": 4 },
+      "sicherheit": { "firewall_geprueft_am": null, "ssh_hostkey_geprueft": false, "verwaltung_oeffentlich": false },
+      "provider_api_secret_ref": null
+    }
+  ]
+}
