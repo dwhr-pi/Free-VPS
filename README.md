@@ -1,4 +1,3 @@
-https://github.com/l0n3m4n/github-vps
 # Free VPS – deutsche Übersicht
 
 Die aktuelle Dokumentation beginnt in [README-de.md](README-de.md).
